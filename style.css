@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right , rgba(232, 235, 193, 0.933) , #afaae9);
+    display: flex;
+    flex-direction: column;
+}
+header img{
+    width: 100%;
+    height: 600px;
+    box-shadow: 12px 14px 24px beige;
+}
+
+.start-page img{
+   width: 150px;
+   height: 150px;
+}
+
+.first-car img{
+    width: 45%;
+    height: 450px;
+}
+
+.second-car img{
+    width: 45%;
+    height: 450px;
+}
+
+.thard-car img{
+    width: 45%;
+    height: 450px;
+}
+
+.fourth-car img{
+    width: 45%;
+    height: 450px;
+}
+
+.fifth-car img{
+    width: 45%;
+    height: 450px;
+}
+
+.sixth-car img{
+    width: 45%;
+    height: 450px;
+}
+
+.seventh-car img{
+    width: 45%;
+    height: 450px;
+}
+
+/* Start page */
+.start-page {
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -40px;
+    box-shadow: 12px 14px 24px beige;
+}
+
+.start-page img{
+border-radius: 50%;
+border: solid 1px white;
+}
+
+.start-page p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(68, 81, 81);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 12px 14px 24px beige;
+    font-size: large;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   gap: 1rem;
+    padding: 3rem;
+    box-shadow: 12px 14px 24px beige;
+}
+.social-media > h3{
+    font-size: x-large;
+}
+.icons{
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+.fab{
+    color: rgb(44, 44, 123);
+}
+.fab:hover{
+    transform: scale(1.5);
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.history p{
+    font-size: medium;
+}
+.history h2{
+    margin-bottom: 10px;
+    font-size: x-large;
+    color: rgb(57, 4, 4);
+}
+
+.all-cars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+.all-cars > a{
+    text-decoration: none;
+    color: black;
+}
+
+.car{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+    box-shadow: 12px 14px 24px beige;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 15px 15px 34px #578ff0;
+    
+}
+
+
+
+
+.car:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: ease .5s;
+    transition: ease-out .5s;
+    background: linear-gradient(to right , #afaae9,  rgba(232, 235, 193, 0.933) );
+}
+
+.car img{
+    border-radius: 15px;
+    box-shadow:15px 15px 34px #578ff0 ;
+}
+
+.all-cars > video{
+height: 500px;   
+border-radius: 10px;
+box-shadow:12px 14px 24px beige ;
+margin-bottom: 15px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.phone-number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    gap: .5rem;
+    border: 1px solid rgb(233, 237, 241);
+    border-radius: 15px;
+    padding: 5px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    gap: .5rem;
+    border: 1px solid rgb(233, 237, 241);
+    border-radius: 15px;
+    padding: 5px;
+}
+footer{
+    background: linear-gradient(to right , rgb(23, 4, 51) , rgb(65, 59, 141));
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    gap: 1rem;
+    
+}
+footer > h2{
+    color: aliceblue;
+}
+.coment{
+    width: 90%;
+    margin: 0 , 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.coment > textarea{
+width: 100%;
+height: 80px;
+background: linear-gradient(to right , rgba(232, 235, 193, 0.933) , #afaae9);
+padding: 10px;
+border: none;
+margin-bottom: 10px;
+font-size: large;
+}
+.coment > textarea:hover{
+    border-radius: 10px;
+    background: linear-gradient(to right , #afaae9 , rgba(232, 235, 193, 0.933) );
+}
+
+.coment > button {
+    width: 50%;
+    padding: 5px;
+    font-size: large;
+    background:linear-gradient(to right , rgba(232, 235, 193, 0.933) , #afaae9) ;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.coment > button:hover{
+   cursor: pointer;
+   border-radius: 10px;
+   border: solid 1px white;
+   background:linear-gradient(to right , #afaae9 ,rgba(232, 235, 193, 0.933) ) ;
+   transform: scale(1.1);
+   transition: ease 1s;
+}
+
+.final-title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+  
+
+}
+
+/* Other page // Audi A7 */
+.audi-a7-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.audi-a7-container > img{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 26px rgb(124, 183, 174);
+}
+.audi-a7-container > h2{
+    width: 60%;
+}
+.audi-a7-container > p{
+    width: 80%;
+    font-size: large;
+}
+.home-page > a{
+    font-size: xx-large;
+    position: fixed;
+    margin-left: 30px;
+    margin-top:25px;
+    color: rgb(71, 123, 71);
+}
+.home-page>a:hover{
+transform: scale(1.05);
+transition: ease 1s;
+cursor: pointer;
+color: green;
+}
+
+/* style for Audi R7 */
+.audi-r7-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.audi-r7-container > img{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 26px rgb(124, 183, 174);
+}
+.audi-r7-container > h2{
+    width: 60%;
+}
+.audi-r7-container > p{
+    width: 80%;
+    font-size: large;
+}
+
+/* rent menu */
+.menu-btn{
+    background-color: #080808;
+    color: white;
+    position: fixed;
+    border: none;
+    box-shadow: 17px 25px 40px black;
+    padding: 10px;
+    border-radius: 10px;
+  margin-top: 90vh;
+    margin-left: 10px;
+    z-index: 2;
+}
+.menu-btn:hover{
+    transform: scale(1.05);
+    transition: ease.5s;
+    background-color: green;
+    cursor: pointer;
+    color: black;
+}
+
+/* <!-- rentUserArea --> */
+.rent-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #00000999;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    opacity: -1;
+}
+.rent-container-active{
+    z-index: 1;
+    opacity: 1;
+    transition: 1s ease;
+}
+.rent-window #car{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.rent-window{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    background-color: #2c2b35;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    position: fixed;
+    margin-top: 0px;
+    padding: 20px;
+    box-shadow: 15px 30px 70px green;
+    color: white;
+}
+
+.rent-list{
+    padding: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    list-style: none;
+}
+.rent-list>li>a{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: x-large;
+    box-shadow: 17px 28px 50px green;
+    border: 1px white solid;
+    border-radius: 10px 50px;
+    color: white;
+    text-decoration: none;
+
+}
+.rent-list>li>a:hover{
+    border-radius: 50px 10px;
+    border: 1px solid violet;
+    transform: scale(1.05);
+    transition: ease 1s;
+    background: linear-gradient(to right , rgb(90, 85, 90) ,rgb(50, 66, 104));
+    cursor: pointer;
+}
+.animation{
+    width: 100%;
+    font-size: x-large;
+}
+.far{
+    box-shadow: 15px 15px 30px black;
+    background-color: rgb(21, 22, 23);
+    font-size: x-large;
+}
+.far:hover{
+    color: red;
+    transform: scale(1.2);
+    transition: ease 1s;
+    cursor: pointer;
+}
+
+/* button for all pages */
+.rent-new{
+    padding: 7px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 17px 20px 30px black;
+    font-size: x-large;
+}
+.rent-new:hover{
+    background-color: rgb(6, 118, 6);
+    transform: scale(1.03);
+    transition: ease 1s;
+    cursor: pointer;
+}
+
+/* <!-- rentWindow for all pages -->? */
+.window-container-all{
+    width: 100%;
+    height: 100vh;
+    background-color: #00000099;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: white;
+    opacity: -1;
+    z-index: -1;
+}
+.activee{
+    opacity: 1;
+    z-index: 1;
+    transition: ease 1.5s;
+}
+
+.window-all{
+    width: 80%;
+    background-color: #2c2b35;
+    border-radius: 10px;
+    box-shadow: 16px 20px 49px rgb(64, 96, 64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+.window-all>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 80%;
+    font-size: medium;
+}
+.window-all>form>input{
+    width: 100%;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow:  16px 10px 130px rgb(64, 96, 64); ;
+    background-color: rgb(253, 252, 252);
+}
+.window-all>form>input:hover{
+    transform: scale(1.04);
+    transition: 1s ease;
+    cursor: text;
+    background-color: cadetblue;
+}
+
+.send-data{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-shadow: 13px 20px 30px black;
+    width: 30%;
+}
+.send-data:hover{
+    transform: scale(1.05);
+    transition: ease 1s;
+    background-color: green;
+    cursor: pointer;   
+}
+
+#farr{
+    box-shadow: 15px 15px 30px black;
+    background-color: rgb(21, 22, 23);
+    font-size: x-large;
+    display: flex;
+    align-self: flex-end;
+}
+#farr:hover{
+    color: red;
+    transform: scale(1.2);
+    transition: ease 1s;
+    cursor: pointer;
+}
+
+
+/* <!-- orther pop-up --> */
+.pop-up{
+    background-color: #c5c2e2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: large;
+    padding: 30px;
+    align-items: center;
+    border-radius: 10px;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    position: fixed;
+    z-index: -1;
+    opacity: -1;
+    box-shadow: 14px 17px 26px rgb(63, 62, 62);
+    margin-top: 30px;
+}
+.pop-up-active{
+    z-index: 2;
+    opacity: 2;
+}
+#clsBtn{
+    padding: 6px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(244, 113, 113);
+    box-shadow: 14px 17px 26px rgb(63, 62, 62);
+    font-size: large;
+    color: aliceblue;
+}
+#clsBtn:hover{
+    transform: scale(1.04);
+    transition: ease 1s;
+    background-color: green;
+    cursor: pointer;
+}
+
+
+
+
